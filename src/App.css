@@ -1,0 +1,57 @@
+/* App.css */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100vh;
+  padding: 1rem;
+  background-color: black;
+  overflow-y: hidden; /* Remove the scrollbar */
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the left */
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 9999px;
+  transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #333;
+}
+
+.userprofile {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 9999px;
+  transition: background-color 0.3s;
+}
+
+.userprofile:hover {
+  background-color: #333;
+}
+
+.button button {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  background-color: #1d9bf0;
+  color: white;
+  cursor: pointer;
+}
+
+/* Optional: For hiding the scrollbar but still allowing scrolling */
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+.sidebar {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
