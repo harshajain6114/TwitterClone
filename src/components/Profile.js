@@ -7,6 +7,9 @@ const Profile = () => {
     setIsProfilePicEnlarged(!isProfilePicEnlarged);
   };
 
+  // Define the postImage variable
+  const postImage = "https://example.com/path-to-your-image.jpg"; // Replace with your image URL
+
   return (
     <div className="w-4/5 border-x border-gray-600 p-3">
         <div>Harsha Jain</div>
@@ -118,5 +121,3 @@ const Profile = () => {
 };
 
 export default Profile;
-
-
