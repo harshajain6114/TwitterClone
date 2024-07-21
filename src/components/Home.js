@@ -1,7 +1,9 @@
 import React from 'react';
 
-
 const Home = () => {
+  // Define the postImage variable
+  const postImage = "https://example.com/path-to-your-image.jpg"; // Replace with your image URL
+
   return (
     <div className="w-4/5 border-x border-gray-600 p-3 ml-1/5">
       <div className="top flex items-center p-3 sticky top-0 bg-black backdrop-blur-3xl opacity-80 z-10">
@@ -88,5 +90,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
