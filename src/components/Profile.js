@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import postImage from '/home/harsha/Desktop/hosting/hosteclone/src/assets/images/Screenshot from 2024-07-20 17-53-34.png';
 
 const Profile = () => {
   const [isProfilePicEnlarged, setIsProfilePicEnlarged] = useState(false);
